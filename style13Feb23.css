@@ -1,5 +1,12 @@
 /*  DIV SPAN ELEMENTS */
 /* this is used in grouping */
+/* Div styles the whole block, that is whatever is inbetween the div tags */
+/* DIV */
+<div>
+<h1> heading number one</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore non odio molestias ex eligendi laboriosam distinctio nihil, sunt optio sed!</p>
+</div>
+
 .green{
  color: green;
 }
@@ -12,6 +19,38 @@ div{
  background: pink;
 }
 
+/* SPAN */
+/* Span is used in inline styling */
+<p>Lorem ipsum dolor, sit amet consectetur hey
+ <span> I am uppercase </span> adipisicing elit. Molestias commodi debitis laborum odit voluptatum ipsam a provident hey <span> I am uppercase </span>   voluptate quibusdam corrupti!</p>
 span{
  text-transform: uppercase;
 }
+/* END */
+/* NB: IF WE WANT TO USE TWO OR MORE DIVS , WE CAN INCLUDE,<div class="green"> ie 
+<div class="purple">
+<h1> heading number one</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore non odio molestias ex eligendi laboriosam distinctio nihil, sunt optio sed!</p>
+</div>
+
+<div class="green">
+<h2>heading number two</h2>
+<p>Lorem ipsum dolor, sit amet consectetur hey
+ <span class="red"> I am uppercase </span> adipisicing elit. Molestias commodi debitis laborum odit voluptatum ipsam a provident hey <span> I am uppercase </span>   voluptate quibusdam corrupti!</p>
+</div> */
+
+.purple{
+ color: purple;
+}
+/* The above code will be for the first block while the one below will be fot the second block */
+/* use class selector for it to work */
+
+.green{
+ color: green;
+}
+.red{
+ color: red;
+}
+
+
+/* we can also use <span class="red"> I am uppercase </span>, so the text will be red */
