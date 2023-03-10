@@ -1,0 +1,17 @@
+/*  DIV SPAN ELEMENTS */
+/* this is used in grouping */
+.green{
+ color: green;
+}
+.red{
+ color: red;
+}
+
+div{
+ color: red;
+ background: pink;
+}
+
+span{
+ text-transform: uppercase;
+}
